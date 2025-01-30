@@ -1,3 +1,3 @@
 ### Information
 
-A calculator app using react js
+A calculator app using react 
