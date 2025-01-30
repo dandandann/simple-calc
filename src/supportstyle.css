@@ -1,0 +1,171 @@
+html, body {
+    height: 100%;
+}
+* {
+    margin:  0;
+    padding:  0;
+}
+.mainSupport {
+   
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+
+}
+
+.supportContainer{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.supportContainer2{
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+
+.topSection {
+    width: 100%;
+    height: 150px;
+    border-bottom: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.topSection h1{
+    font-size: 70px;
+    margin-left: 200px;
+
+}
+
+.botSection{
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.infoContainer{
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.leftSection p{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.leftSection{
+    width: 50%;
+    height: 100%;
+
+}
+.rightSection{
+    width: 50%;
+    height: 100%;
+  
+}
+.optional{
+    font-size: 15px;
+    color: gray;
+}
+.asterisk {
+    justify-content: top;
+    color: red;
+    font-size: 15px;
+}
+.nameIn{
+    margin-left: 15px;
+    width: 47%;
+    height: 40px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.topicIn{
+    margin-left: 15px;
+    width: 95%;
+    height: 300px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+.emailIn{
+    margin-left: 15px;
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.firstandlastname{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin-left: 20px;
+    gap: 390px;
+}
+
+.rightSection p{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.descIn{
+    margin-left: 15px;
+    width: 95%;
+    height: 500px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+
+.submit{
+    margin: right;
+    width: 110px;
+    height: 50px;
+    margin-left: 700px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.submit:disabled{
+    background-color: #aaa;
+}
+.submit:enabled{
+    background-color: #FF9500;
+    cursor: pointer;
+}
+
+.topicIn, .descIn{
+    vertical-align: text-top;
+}
+
+.ticketMsg{
+    font-size: 50px;
+    color: #FF9500;
+}

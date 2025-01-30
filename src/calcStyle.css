@@ -1,0 +1,112 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.calc{
+    background-color: black;
+    width: 500px;
+    height: 800px;
+    margin-top: 60px;
+}
+
+.topSect{
+    background-color: #585657;
+    width: 100%;
+    height: 33%;
+}
+
+.bottomSect{
+    width: 100%;
+    height: 67%;
+    display: inline-block;
+    /* gap: 100px; */
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnAlt2{
+    background-color : #FF9500;
+    margin-left: 60px;
+}
+
+
+.btn, .btnAlt{
+    margin: 10px;
+    font-size: 25px;
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    background-color: #A5A5A5;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+.btnAlt{
+    /* margin: 0px; */
+    margin-left: 50px;
+    background-color: #FF9500;
+}
+
+.btnAlt2{
+    margin-left: 20px;
+    width: 40%;
+    cursor: pointer;
+
+    height: 85px;
+    background-color: #A5A5A5;
+    border-radius: 40px;
+}
+
+
+.btn:hover, #btnAlt1:hover{
+    background-color: #dad5d5;
+    
+}
+
+.btnAlt:hover, #btnAlt2:hover{
+    background-color: #FFB366;
+}
+
+.history{
+    width: 200px;
+    height: 155px;
+    /* background-color: blue; */
+    box-sizing: border-box;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.result{
+    width: 100%;
+    height: 110px;
+    /* background-color: yellow; */
+}
+
+.result input{
+    width: 98.5%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: white;
+    text-align: right;
+    outline: none;
+}
+
+.historyItem{
+    width: 100%;
+    height: 10px;
+    background-color: #585657;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    overflow-y: scroll;
+
+}
+
+
